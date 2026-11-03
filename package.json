@@ -1,0 +1,15 @@
+{
+  "name": "next-activity-stale-redirect-repro",
+  "private": true,
+  "scripts": {
+    "repro": "next build && node repro.mjs"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.38",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}
