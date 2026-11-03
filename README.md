@@ -48,5 +48,5 @@ Where it goes wrong (`next/dist/client/components`):
 - next: `16.5.0-canary.38` (also seen on `16.4.3`)
 - react, react-dom: `19.3.1`
 - playwright: `1.64.1`
-- Node.js: `v24`
-- macOS 27 (arm64)
+- Node.js: `24.22.0`
+- macOS 27.2 (arm64)
