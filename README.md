@@ -2,7 +2,7 @@
 
 With `cacheComponents: true`, a page that calls `redirect()` on one soft navigation redirects again the next time it's opened, even when the new render doesn't redirect. Here `/a?to=b` redirects to `/b`. Afterwards, a `<Link href="/a">` on `/b` briefly commits `/a` and then bounces back to `/b`, so `/a` can't be opened until a full reload. With `cacheComponents: false` the same app works.
 
-Reported in [vercel/next.js#92767 (comment)](https://github.com/vercel/next.js/issues/92767#issuecomment-6609017730). Related, [vercel/next.js#92615](https://github.com/vercel/next.js/pull/92615).
+Reported in [vercel/next.js#92767 (comment)](https://github.com/vercel/next.js/issues/92767#issuecomment-6609017730). Related: [vercel/next.js#92615](https://github.com/vercel/next.js/pull/92615).
 
 ## Reproduction
 
